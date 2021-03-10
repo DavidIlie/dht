@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+  }
+  
+  .not-found {
+    margin: 1rem 0;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: normal;
+  }
+  
+  .go-home-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: -2%;
+  }
+
+  .go-home-link:hover {
+    color: rgb(23, 160, 184);
+    transition: 0.5s;
+  }
+
+  .blue {
+    color: rgb(23, 160, 184);
+  }
+  
+  .red {
+    color: rgb(255, 81, 0);
+  }
+  
+  .green {
+    color: rgb(230, 252, 33);
+  }
+  
+  .blue:hover,
+  .red:hover,
+  .green:hover {
+    cursor: pointer;
+    color: rgb(23, 160, 184);
+    transition: 0.5s;
+  }
+
+  h1 {
+      font-size: 4vw;
+      margin-bottom: -3%;
+  }
+  .footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+  }
+  
+  .footer p {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 1%;
+    transition: 0.5s;
+  }
+  a:hover {
+    transition: 0.5s;
+    color: rgb(0, 255, 221);
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+  }
